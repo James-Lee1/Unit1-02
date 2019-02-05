@@ -11,7 +11,7 @@ truckTotalCapacity = 1100
 logWeight = 20
 
 # Find log length from user
-logLength = int(input("What is the log length in metres? Can be either 0.25, 0.5, or 1 : "))
+logLength = input("What is the log length in metres? Can be either 0.25, 0.5, or 1 : ")
 
 # Find weight of a single log specified by user
 singleLogWeight = logLength * logWeight
